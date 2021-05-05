@@ -1,0 +1,89 @@
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link{
+    font-size: 14px;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    text-transform: uppercase;
+}
+
+.navbar .nav-item.active{
+    border-left: 3px solid #444;
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-image-1{
+    background: url('images/tech1.png');
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background: url('images/digital1.jpg');
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background: url('images/tech2.jpg');
+    background-size: cover;
+}
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url('images/light2.jpeg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7)
+}
+
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url('images/media2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#video-play a{
+    color: #fff;
+}
+
+
+
+
+@media(max-width: 768px){
+
+    #showcase h1{
+        font-size: 30px;
+    }
+
+    #showcase p{
+        font-size: 16px;
+    }
+
+    #home-heading h1{
+        font-size: 33px;
+        padding-top: 20px;
+    }
+}
